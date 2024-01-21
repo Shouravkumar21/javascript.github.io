@@ -1,0 +1,38 @@
+const marvel=["thor","ironman","sam"];
+const dc=["ram",".gdidgi","bdkbk"]
+
+//marvel.push(dc);
+//console.log(marvel);//it give array within the array
+
+// const sam=marvel.concat(dc)
+// console.log(sam)                 //it merage both arrays
+
+ //                 But we use simplest one //
+
+
+ const ssam=[...marvel, ...dc]
+ console.log(ssam)    //simplest method which is called spread
+
+
+
+ //if we have condition in which array comes under array and or arrays so solve  we use flat method
+
+ const array=[7,3,4,55,6,6,[4,5,7,64,3,3,2],2,334,4,5[56,6,6],4];
+
+ const allarrays=array.flat(Infinity)
+console.log(allarrays);
+
+
+//to know our data is array or not and how to convert into array
+console.log(Array.isArray("samm"))
+
+console.log(Array.from("sammy"))//to convert any data into array
+
+console.log(Array.from({name:"sammy"})); //its not convert name into array it give us blank array ,it's inntersating
+
+
+const A=300;
+const B=77;
+const C=999;
+
+console.log(Array.of(A,B,C));
