@@ -10,3 +10,5 @@
 //undefind -> ex)var sam;
 
 //object
+
+
